@@ -58,6 +58,18 @@
             document.querySelector('#scoreValue').textContent = rangeControl.value;
         }
 
+        //Create a query selector to the vote range
+        const score = document.querySelector('#score').value;
+        console.log("esta es la const userVote:... ", score);  
+        
+        // score.addEventListener('click', function())
+
+        const button = document.querySelector('.button')
+    
+
+        document.querySelector('#userVote').textContent =
+            updateScoreValue();
+
         // Codifica a partir de aquí
     </script>
 
